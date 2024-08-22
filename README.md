@@ -1,8 +1,6 @@
 # Simple_Flask_Application
 # Project Title
-## Clone the repository:
-   ```bash
-   git clone https://github.com/username/repository.git
+
 A brief description of your project, its purpose, and what it does.
 
 ## Table of Contents
@@ -32,4 +30,5 @@ Provide a detailed description of your project. Explain its purpose, how it work
 ## Clone the repository:
    ```bash
    git clone https://github.com/username/repository.git
+##Pankaj
 

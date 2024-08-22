@@ -53,6 +53,5 @@ spec:
         ports:
         - containerPort: 3000
 ```
-
 ## Step 5: Write ms1-service.yml describing the service of ms1.
 

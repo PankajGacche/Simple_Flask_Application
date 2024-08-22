@@ -28,7 +28,7 @@ Provide a detailed description of your project. Explain its purpose, how it work
 ### Steps
 
 ## Step 4: Write ms1-deployment.yml describing the deployment of ms1.
-```python
+```bash
 apiVersion: apps/v1
 kind: Deployment
 metadata:

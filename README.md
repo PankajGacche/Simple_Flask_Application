@@ -30,6 +30,7 @@ Provide a detailed description of your project. Explain its purpose, how it work
 ## Clone the repository
    ```bash
    git clone https://github.com/username/repository.git
-   '''bash
+   
+
 ## Pankaj
 

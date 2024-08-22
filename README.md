@@ -27,10 +27,32 @@ Provide a detailed description of your project. Explain its purpose, how it work
 
 ### Steps
 
-## Clone the repository
-   ```bash
-   git clone https://github.com/username/repository.git
-'''
+## Step 4: Write ms1-deployment.yml describing the deployment of ms1.
+```python
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: microserver1-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: microserver1
+  template:
+    metadata:
+      labels:
+        app: microserver1
+    spec:
+      containers:
+      - name: microserver1
+        image: sukhilnair/mern:microservice1
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 3000
+```
 
-## Pankaj
+## Step 5: Write ms1-service.yml describing the service of ms1.
 

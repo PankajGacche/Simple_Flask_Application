@@ -27,8 +27,8 @@ Provide a detailed description of your project. Explain its purpose, how it work
 
 ### Steps
 
-1. Clone the repository:
+## Clone the repository:
    ```bash
    git clone https://github.com/username/repository.git
-2. pull
+## pull
    - test
